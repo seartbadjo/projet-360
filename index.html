@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Homme Plus - Augmentation de taille pour les personnes de petite taille.">
+    <title>Homme Plus - La grandeur à votre porte</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<style>
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+
+}
+
+.navbar {
+    background-color: #ff6600;
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap:0;
+}
+
+.item {
+  display: flex;             
+  align-items: center;    
+}
+
+.image {
+    width: 100px;            
+    margin-right: 20px;  
+}
+.text{
+    margin:0%;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+}
+
+.navbar ul li {
+    margin-left: 20px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.hero {
+    background-color: #168ddc;
+    color: #fff;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.hero h2 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.hero button {
+    padding: 10px 30px;
+    background-color: #ff6600;
+    border-radius: 45px;
+    color: white;
+    font-size: 1.1em;
+    cursor: pointer;
+}
+
+.hero button:hover {
+    background-color: #e65c00;
+
+}
+
+.services {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 20px;
+    background-color: #fff;
+}
+
+.service-card {
+    width: 30%;
+    padding: 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.testimonials {
+    background-color: #ff6600;
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.testimonial {
+    margin: 20px;
+}
+
+.testimonial h4 {
+    font-weight: bold;
+}
+
+.contact {
+    padding: 40px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.contact input,
+.contact textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 1.1em;
+    border: 1px solid #ccc;
+}
+
+.contact button {
+    padding: 15px 30px;
+    background-color: #0099ff;
+    color: #fff;
+    font-size: 1.2em;
+    border: none;
+    cursor: pointer;
+}
+
+.contact button:hover {
+    background-color: #006bb3;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #001f3d;
+    color: white;
+}
+
+
+
+</style>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">
+            <img src="C:\Users\YAKRI\Desktop\Projet 360\HOMME PLUS PNG.jpg" alt="logo homme plus">
+            <h1>Homme Plus</h1>
+
+        </div>
+        <ul>
+            <li><a href="#home">Accueil</a></li>
+            <li><a href="#services">Nos Services</a></li>
+            <li><a href="#testimonials">Témoignages</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#creer-compte.html" target="-blank">Se connecter</a></li>
+        </ul>
+        
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <h2>La grandeur à votre porte</h2>
+        <div class="container">
+            <div class="item">
+                <img src="C:\Users\YAKRI\Desktop\Projet 360\covid-medical-test-with-man-doctor-pharmacy-medicine-clinical-research-exam-pcr-cotton-swab-with-healthcare-worker-patient-hospital-virus-flu-disease-prevention_590464-112895.jpg" alt="covid-medical test">
+            </div>
+        <p>Augmentez votre taille en toute sécurité et retrouvez confiance en vous. Nous sommes là pour vous accompagner !</p>
+        <button onclick="scrollToForm()">Prenez Rendez-vous</button>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <h2>Nos Services</h2>
+        <div class="service-card">
+            <div class="item">
+                <img src="C:\Users\YAKRI\Desktop\Projet 360\masseur-taking-care-her-client_23-2149273881.jpg" alt="massage visage">
+            </div>
+            <h3>Augmentation de Taille</h3>
+            <p>Notre procédure médicale est sécurisée et adaptée à chaque patient.</p>
+        </div>
+        <div class="service-card">
+            <div class="item">
+                <img src="C:\Users\YAKRI\Desktop\Projet 360\person-getting-micro-needling-beauty-treatment_23-2149334289.jpg" alt="consultation Personnalisée">
+            </div>
+            <h3>Consultation Personnalisée</h3>
+            <p>Nous vous offrons des conseils sur mesure pour un suivi optimal.</p>
+        </div>
+        <div class="service-card">
+            <div class="item">
+                <img src="C:\Users\YAKRI\Desktop\Projet 360\young-beautiful-african-zulu-businesswoman-against-brown-background_251136-4203.jpg" alt="Réhabilitation Post-Opératoire">
+            </div>
+            <h3>Réhabilitation Post-Opératoire</h3>
+            <p>Un suivi rigoureux pour garantir une récupération rapide et sûre.</p>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <h2>Ce que nos clients disent</h2>
+        <div class="testimonial">
+            <div class="item">
+                <img src="C:\Users\YAKRI\Desktop\Projet 360\vertical-shot-attractive-african-american-male-smiling-camera_181624-36894.avif" alt="portrait de Jean D.">
+            </div>
+            <p>"Grâce à Homme Plus, j'ai gagné en hauteur et confiance. Une expérience qui a changé ma vie!"</p>
+            <h4>Jean D.</h4>
+        </div>
+        <div class="testimonial">
+            <div class="item">
+                <img src="C:\Users\YAKRI\Desktop\Projet 360\african-american-student-walking-park_1303-12720.avif" alt="portrait de Michel T.">
+            </div>
+            <p>"Le processus était professionnel et l'équipe a été incroyable tout au long de mon parcours."</p>
+            <h4>Michel T.</h4>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contactez-nous</h2>
+        <form id="contact-form">
+            <input type="text" placeholder="Votre nom" required>
+            <input type="email" placeholder="Votre email" required>
+            <textarea placeholder="Votre message" required></textarea>
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Homme Plus. Tous droits réservés.</p>
+        <button type="button" id="merci à vous">A très bientot</button>
+    </footer>
+</body>
+<script>
+function scrollToForm()
+    document.getElementById('contact').scrollIntoView({ behavior: 'smooth' });
+    <button type="button"  onclick="Function()">Merci à vous</button>
+</script>
+
+</html>

@@ -1,0 +1,135 @@
+/* styles.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.navbar {
+    background-color: #001f3d;
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+img{
+    background-attachment: fixed;
+}
+.navbar ul {
+    list-style: none;
+    display: flex;
+}
+
+.navbar ul li {
+    margin-left: 20px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.hero {
+    background-color: #0099ff;
+    color: #fff;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.hero h2 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.hero button {
+    padding: 10px 30px;
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    font-size: 1.1em;
+    cursor: pointer;
+}
+
+.hero button:hover {
+    background-color: #e65c00;
+}
+
+.services {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 20px;
+    background-color: #fff;
+}
+
+.service-card {
+    width: 30%;
+    padding: 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.testimonials {
+    background-color: #003366;
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.testimonial {
+    margin: 20px;
+}
+
+.testimonial h4 {
+    font-weight: bold;
+}
+
+.contact {
+    padding: 40px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.contact input,
+.contact textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 1.1em;
+    border: 1px solid #ccc;
+}
+
+.contact button {
+    padding: 15px 30px;
+    background-color: #0099ff;
+    color: #fff;
+    font-size: 1.2em;
+    border: none;
+    cursor: pointer;
+}
+
+.contact button:hover {
+    background-color: #006bb3;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #001f3d;
+    color: white;
+}
